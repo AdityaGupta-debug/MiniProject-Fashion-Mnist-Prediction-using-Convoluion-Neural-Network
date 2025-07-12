@@ -62,8 +62,8 @@ model.add(Dense(10, activation='softmax'))
 
 ## 📈 Model Performance
 
-- **Final Accuracy**: 89%
-- **Loss Function**: Categorical Crossentropy
+- **Final Accuracy**: 90%
+- **Loss Function**: Sparse Categorical Crossentropy
 - **Optimizer**: Adam
 
 ## Data Visualization
@@ -80,47 +80,6 @@ The project includes comprehensive data visualization:
 - **Accuracy curves**: Training and validation accuracy progression
 - **Performance metrics**: Detailed classification report
 
-## Getting Started
-
-### Prerequisites
-```bash
-pip install tensorflow keras numpy matplotlib pandas seaborn
-```
-
-### Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/fashion-mnist-cnn.git
-cd fashion-mnist-cnn
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the training script:
-```bash
-python train_model.py
-```
-
-## Project Structure
-
-```
-fashion-mnist-cnn/
-├── README.md
-├── requirements.txt
-├── train_model.py
-├── model_architecture.py
-├── data_visualization.py
-├── models/
-│   └── fashion_mnist_model.h5
-├── plots/
-│   ├── sample_images.png
-│   ├── training_curves.png
-│   └── confusion_matrix.png
-└── notebooks/
-    └── fashion_mnist_analysis.ipynb
 ```
 
 ## Key Features
@@ -158,27 +117,3 @@ model.compile(
 - **Epochs**: 20-30 (with early stopping)
 - **Validation Split**: 20% of training data
 - **Data Augmentation**: Optional for improved generalization
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Fashion MNIST dataset creators at Zalando Research
-- TensorFlow/Keras community for excellent documentation
-- Deep learning community for architectural insights
-
-## Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername) - your.email@example.com
-
-Project Link: [https://github.com/yourusername/fashion-mnist-cnn](https://github.com/yourusername/fashion-mnist-cnn)
