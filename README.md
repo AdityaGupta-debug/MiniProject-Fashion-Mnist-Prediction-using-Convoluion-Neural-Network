@@ -61,7 +61,7 @@ model.add(Dropout(0.2))
 model.add(Dense(32, activation='relu'))
 model.add(Dropout(0.2))
 model.add(Dense(10, activation='softmax'))
-
+```
 ### Architecture Highlights:
 - **Convolutional Layers**: 2 Conv2D layers with ReLU activation
 - **Batch Normalization**: Improves training stability and convergence
