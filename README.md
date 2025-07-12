@@ -106,7 +106,7 @@ The project includes comprehensive data visualization:
 |----------------------|----------------|
 | ✅ Test Accuracy      | **90%**        |
 | 📦 Model Parameters   | ~85K           |
-| ⏱️ Training Time      | ~10 minutes    |
+| ⏱️ Training Time      | ~6 minutes    |
 | 🖼️ Input Shape        | (28, 28, 1)    |
 | 🏷️ Output Classes     | 10             |
 
