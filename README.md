@@ -110,14 +110,3 @@ The project includes comprehensive data visualization:
 | 🖼️ Input Shape        | (28, 28, 1)    |
 | 🏷️ Output Classes     | 10             |
 
----
-
-## ⚙️ Technical Details
-
-### 🔧 Model Compilation
-```python
-model.compile(
-    optimizer='adam',
-    loss='categorical_crossentropy',
-    metrics=['accuracy']
-)
