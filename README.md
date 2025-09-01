@@ -1,6 +1,6 @@
 # 👗 Fashion MNIST Classification with Custom CNN
 
-A deep learning project that classifies fashion items using a custom 🧠 Convolutional Neural Network (CNN) built with TensorFlow/Keras.  
+A deep learning project that classifies fashion items using a custom 🧠 Convolutional Neural Network (CNN) built with TensorFlow/Keras.
 ✅ This model achieves **~90% accuracy** on the Fashion MNIST dataset.
 
 ---
